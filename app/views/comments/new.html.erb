@@ -1,8 +1,8 @@
 <div>
 <h1>asdf</h1>
 	<%= simple_form_for @comment do |f| %>
-		<%= f.input :name %>
-		<%= f.input :description %>
+		<%= f.input :name, label: 'Your name:' %>
+		<%= f.input :description, label: 'Your thoughts:' %>
 		<br />
 		<%= f.submit 'Create' %>
 	<% end %>
